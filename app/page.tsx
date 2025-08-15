@@ -16,12 +16,14 @@ export default function Home() {
       {/* Header */}
       <header className="bg-white shadow-sm">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center space-x-2">
+        {/* <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
             <span className="text-white text-sm">🍕</span>
           </div>
           <span className="text-2xl font-bold text-gray-800">Foody</span>
-        </div>
+        </div> */}
+
+        <h1 className='text-4xl ml-5'>LOGO</h1>
         
         <nav className="hidden md:flex space-x-8">
           <a href="#" className="text-orange-500 font-medium">Home</a>
@@ -274,12 +276,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-                  <span className="text-white text-sm">🍕</span>
-                </div>
-                <span className="text-2xl font-bold">Foody</span>
-              </div>
+              <h1 className='text-4xl mb-25'>LOGO</h1>
               <p className="text-gray-400">
                 We prepare delicious food for our customers
               </p>
@@ -319,7 +316,7 @@ export default function Home() {
           </div>
           
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Foody. All rights reserved.</p>
+            <p>&copy; 2025 FOOD. All rights reserved.</p>
           </div>
         </div>
       </footer>
