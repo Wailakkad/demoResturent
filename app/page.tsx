@@ -1,5 +1,5 @@
 "use client"
-import Image from 'next/image'
+
 import { useState } from 'react'
 import PopularSaladsSlider from '@/componemt/PopularSaladsSlider'
 import TopFoodsSection from '@/componemt/TopFood'
@@ -7,10 +7,10 @@ import MeetTeamSection from '@/componemt/Reviews'
 import ContactSection from '@/componemt/contact'
 import CategoriesSection from '@/componemt/Catalog'
 import GetStartedSection from '@/componemt/Start'
-import { ChevronLeft, ChevronRight , ShoppingCart, Search, Play, Truck, MapPin, Star, Download, Apple , Sparkles, Leaf } from 'lucide-react'
+import {  ShoppingCart, Search, Play, Truck, MapPin, Sparkles, Leaf } from 'lucide-react'
 
 export default function Home() {
-    const [cartCount, setCartCount] = useState(3); // Example cart count
+    const [cartCount] = useState(3); // Example cart count
   return (
     <div className="min-h-screen bg-orange-50 font-sans">
       {/* Header */}

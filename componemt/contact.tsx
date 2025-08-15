@@ -100,7 +100,7 @@ const ContactSection: React.FC = () => {
               <div className="relative">
                 <textarea
                   id="message"
-                  rows="5"
+                  rows={4}
                   value={formData.message}
                   onChange={(e) => handleInputChange('message', e.target.value)}
                   onFocus={() => setFocusedField('message')}
